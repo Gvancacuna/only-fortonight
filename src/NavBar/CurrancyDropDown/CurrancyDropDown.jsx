@@ -18,7 +18,8 @@ const CurrencyDropdown = ({ setData }) => {
 			// Define conversion rates (adjust these values as needed)
 			const rates = {
 				USD: 1, // Base currency
-				EUR: 3.2, // 1 USD = 0.85 EUR
+				// + changed currency conversion rates
+				EUR: 1.2, // 1 USD = 0.85 EUR
 				JPY: 145, // 1 USD = 110 JPY
 			};
 
